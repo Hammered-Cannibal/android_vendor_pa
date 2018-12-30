@@ -38,12 +38,6 @@ PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    sys.usb.config=mtp,adb \
-    persist.sys.usb.config=mtp,adb \
-    ro.adb.secure=0 \
-    ro.secure=0 \
-    ro.debuggable=1
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 		BUILD_FINGERPRINT=motorola/payton/payton:8.0.0/OPWS27.57-25-6-10/12:user/release-keys \
